@@ -3,3 +3,45 @@
     padding: 0px; 
     box-sizing: border-box;
 }
+.body {
+    background: #AAAAAA;
+
+}
+
+/* hero area start */
+.hero-area  {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 80px;
+
+}
+.nav-icon ul{
+    display: flex;
+    gap: 20px;
+}
+.nav-icon li{
+    list-style: none;
+    padding: 30px 0px;
+}
+.nav-icon  li a {
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+}
+/* hero area end */
+
+/* banner area start */
+.banner-area {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.banner-content h1{
+    font-size: 60px;
+}
+
+
+
+/* banner area end */
