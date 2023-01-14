@@ -201,81 +201,73 @@
 }
 /* footer area end */
 
-/* media quare start */
-
 @media screen and (max-width: 557px){
- .hero-area {
-   display: grid;
-   
- }
- .nav-icon ul {
-    display: grid;
-    grid-template-columns: repeat( 1, 1fr);
-    gap: 0px;
 
+    .hero-area {
+        display: grid;
+        
+      }
+      .nav-icon ul {
+         display: grid;
+         grid-template-columns: repeat( 1, 1fr);
+         gap: 0px;
+     
+         
+     }
+     .nav-icon ul li {
+         padding: 10px 0px;
+     }
+     .banner-area {
+         display: flex;
+         flex-direction: column-reverse;
+         padding: 0px 10px;
+     }
+     .banner-content {
+         text-align: center;
+     }
+     .banner-img img{
+         width: 300px;
+         height:300px
+     }
+     
+     .media-area {
+             padding: 20px 0px;
+     }
+     .media {
+         display: grid;
+         grid-template-columns: repeat(4,1fr);
+     } 
+     .media-content {
+         text-align: center;
+     }
     
+     .media-content img{
+         width: 50px;
+         height: 50px;
+     }
+     
+     .collection-area{
+         padding: 0px 5px;
+     }
+     .total-collection {
+         display: grid;
+         grid-template-columns: 1fr;
+     }
+     
+     .plan {
+         padding: 0px 20px;
+     }
+     .product {
+         flex-direction: column-reverse;
+     }
+     .product-img img{
+         width: 300px ;
+         height: 200px;
+     }
+     .product-content {
+         text-align: center;
+    }   
 }
-.nav-icon ul li {
-    padding: 10px 0px;
-}
-.banner-area {
-    display: flex;
-    flex-direction: column-reverse;
-    padding: 0px 10px;
-}
-.banner-content {
-    text-align: center;
-}
-.banner-img img{
-    width: 300px;
-    height:300px
-}
-
-.media-area {
-        padding: 20px 0px;
-}
-.media {
-    display: grid;
-    grid-template-columns: repeat(4,1fr);
-} 
-.media-content {
-    text-align: center;
-}
-}
-.media-content img{
-    width: 50px;
-    height: 50px;
-}
-
-.collection-area{
-    padding: 0px 5px;
-}
-.total-collection {
-    display: grid;
-    grid-template-columns: 1fr;
-}
-
-.plan {
-    padding: 0px 20px;
-}
-.product {
-    flex-direction: column-reverse;
-}
-.product-img img{
-    width: 300px ;
-    height: 200px;
-}
-.product-content {
-    text-align: center;
-}
-
-
-
-
-@media screen and (max-width: 557px){
-    
-}
-
 
 
 /* media quare end */
